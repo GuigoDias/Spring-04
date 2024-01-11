@@ -44,7 +44,7 @@ SELECT * FROM pedido;
 
 -- 6) Relatório de pedidos por preço
 
-SELECT * FROM pedido WHERE preco > 3000.00 AND preco < 10000.00;
+SELECT * FROM pedido WHERE preco >= 3000.00 AND preco <= 10000.00;
 
 -- 7) Remover pedidos
 
