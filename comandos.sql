@@ -38,3 +38,14 @@ UPDATE pedido SET categoria = "INFORMÁTICA" WHERE categoria = "INFO";
 
 SELECT * FROM pedido;
 
+-- 5) Relatório de pedidos por categoria
+
+SELECT * FROM pedido;
+
+-- 6) Relatório de pedidos por preço
+
+SELECT * FROM pedido WHERE preco > 3000.00 AND preco < 10000.00;
+
+-- 7) Remover pedidos
+
+DELETE FROM pedido WHERE quantidade = 1 OR cliente = "BIA";
