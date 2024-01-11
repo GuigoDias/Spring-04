@@ -40,7 +40,7 @@ SELECT * FROM pedido;
 
 -- 5) Relatório de pedidos por categoria
 
-SELECT * FROM pedido;
+SELECT * FROM pedido WHERE categoria = 'CELULARES';
 
 -- 6) Relatório de pedidos por preço
 
